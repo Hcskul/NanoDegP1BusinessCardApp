@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/heightPicture"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/tschautschuessi" />
+
+        <TextView
+            style="@style/textStyle"
+            android:layout_marginTop="@dimen/marginDescription"
+            android:text="@string/name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/marginDescription"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/descriptionText"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="@style/informationStyle"
+            android:layout_marginBottom="@dimen/marginToScreen"
+            android:text="@string/openingTimes" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginToScreenLand">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcons"
+                android:layout_height="@dimen/sizeIcons"
+                android:src="@drawable/home" />
+
+            <TextView
+                style="@style/informationStyle"
+                android:layout_marginLeft="@dimen/marginToIcon"
+                android:autoLink="map"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginToScreenLand">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcons"
+                android:layout_height="@dimen/sizeIcons"
+                android:src="@drawable/phone_icon" />
+
+            <TextView
+                style="@style/informationStyle"
+                android:layout_marginLeft="@dimen/marginToIcon"
+                android:autoLink="phone"
+                android:text="@string/telefonNumber" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginToScreenLand">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcons"
+                android:layout_height="@dimen/sizeIcons"
+                android:src="@drawable/url_icon" />
+
+            <TextView
+                style="@style/informationStyle"
+                android:layout_marginLeft="@dimen/marginToIcon"
+                android:autoLink="web"
+                android:text="@string/url" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

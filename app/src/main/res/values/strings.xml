@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NanoDeg P1 Business Card App</string>
+    <string name="name">TSCHAU TSCHÜSSI</string>
+    <string name="openingTimes">Tue-Fri 14-19 / Sat-Sun 12-18</string>
+    <string name="telefonNumber">0179 3291174</string>
+    <string name="url">http://www.tschau-tschuessi.de/</string>
+    <string name="address">Karl-Tauchnitz-Straße 9-11\n04107 Leipzig</string>
+    <string name="descriptionText">Design. Nice Things. Art.</string>
+</resources>

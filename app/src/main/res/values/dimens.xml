@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeIcons">40dp</dimen>
+    <dimen name="marginToScreen">12dp</dimen>
+    <dimen name="marginToScreenLand">120dp</dimen>
+    <dimen name="marginToIcon">20dp</dimen>
+    <dimen name="heightPicture">300dp</dimen>
+    <dimen name="marginDescription">4dp</dimen>
+    <dimen name="textSizeHead">20sp</dimen>
+    <dimen name="textSizeInfo">16sp</dimen>
+</resources>
